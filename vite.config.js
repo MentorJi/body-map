@@ -13,7 +13,8 @@ export default defineConfig({
       failOnError: false 
     }),
     VitePWA({ 
-      registerType: 'autoUpdate', // default is 'prompt'
+      registerType: 'autoUpdate', 
+      // default is 'prompt'
       workbox: {
         globPatterns: ['**/*.{js,css,html,ico,png,svg,jpg,jpeg,gif,pdf}']
       },
